@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="XML\XMLTreeNode.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Color.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathTypes.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix33.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix34.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix44.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\MapManager.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\Named.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\TemplatedVectorMapManager.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DElement.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4559df46-3119-4c59-9002-2002db590e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{756d871f-6c5c-4e82-bd2b-5909d7f28398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{e4414cad-f914-4ef9-9be1-346b4f23de6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Importer">
+      <UniqueIdentifier>{c28eaa54-511b-4e3a-87d7-cb48c05a960f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XML\XMLTreeNode.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathConstants.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Example.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Importer\TestMapManager.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="Importer\Named.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Color.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\MathUtils.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Matrix33.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Matrix34.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Matrix44.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector2.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector4.inl">
+      <Filter>Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>
