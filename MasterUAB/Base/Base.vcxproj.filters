@@ -37,24 +37,8 @@
     <ClInclude Include="Utils\Types.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Importer\MapManager.h">
-      <Filter>Importer</Filter>
-    </ClInclude>
-    <ClInclude Include="Importer\Named.h">
-      <Filter>Importer</Filter>
-    </ClInclude>
-    <ClInclude Include="Importer\TemplatedVectorMapManager.h">
-      <Filter>Importer</Filter>
-    </ClInclude>
-    <ClInclude Include="C3DElement.h">
-      <Filter>Importer</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>Importer</Filter>
-    </ClInclude>
-    <ClInclude Include="TextureManager.h">
-      <Filter>Importer</Filter>
-    </ClInclude>
+    <ClInclude Include="Importer\TemplatedVectorMapManager.h" />
+    <ClInclude Include="Importer\MapManager.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Math">
@@ -65,9 +49,6 @@
     </Filter>
     <Filter Include="XML">
       <UniqueIdentifier>{e4414cad-f914-4ef9-9be1-346b4f23de6b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Importer">
-      <UniqueIdentifier>{c28eaa54-511b-4e3a-87d7-cb48c05a960f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -80,15 +61,7 @@
     <ClCompile Include="XML\Example.cpp">
       <Filter>XML</Filter>
     </ClCompile>
-    <ClCompile Include="Importer\TestMapManager.cpp">
-      <Filter>Importer</Filter>
-    </ClCompile>
-    <ClCompile Include="Importer\Named.cpp">
-      <Filter>Importer</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>Importer</Filter>
-    </ClCompile>
+    <ClCompile Include="Importer\TestMapManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Math\Color.inl">

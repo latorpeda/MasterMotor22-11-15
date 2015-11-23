@@ -7,6 +7,10 @@
     <ClCompile Include="SphericalCameraController.cpp" />
     <ClCompile Include="ContextManager.cpp" />
     <ClCompile Include="FPSCameraController.cpp" />
+    <ClCompile Include="..\Base\C3DElement.cpp" />
+    <ClCompile Include="Textures\Texture.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -19,5 +23,17 @@
     <ClInclude Include="VertexTypes.h" />
     <ClInclude Include="ContextManager.h" />
     <ClInclude Include="FPSCameraController.h" />
+    <ClInclude Include="C3DElement.h" />
+    <ClInclude Include="Textures\TextureManager.h">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures\Texture.h">
+      <Filter>Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{eaa2d2b8-1eb2-4ea1-a40f-b47d71866316}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
