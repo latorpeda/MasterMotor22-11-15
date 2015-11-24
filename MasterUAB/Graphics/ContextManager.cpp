@@ -2,14 +2,14 @@
 
 #include "VertexTypes.h"
 #include "RenderableVertexs.h"
-#include "Effect.h"
+#include "Effects\Effect.h"
 
 #include "Math\Matrix44.h"
 
 #include "DebugRender.h"
 
 #pragma comment(lib,"d3d11.lib")
-#pragma comment(lib, "Graphics_d.lib")
+//#pragma comment(lib, "Graphics_d.lib")
 
 
 CContextManager::CContextManager()

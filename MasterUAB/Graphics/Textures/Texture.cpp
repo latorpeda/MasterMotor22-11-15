@@ -3,11 +3,16 @@
 
 #include <d3d11.h>
 
+
+
 CContextManager s_Context;
 
 bool CTexture::LoadFile(){
 	ID3D11Device *l_Device=s_Context.GetDevice();
-	HRESULT l_HR=D3DX11CreateShaderResourceViewFromFile(l_Device,m_Name.c_str(), NULL, NULL, &m_Texture, NULL );
+	HRESULT l_HR;
+	//l_HR=D3DX11CreateShaderResourceViewFromFile(l_Device,m_Name.c_str(), NULL, NULL, &m_Texture, NULL );
+	//l_HR=CreateDDSTextureFromMemory(l_Device,m_Name.c_str(), NULL, NULL, &m_Texture, NULL );
+	
 	D3D11_SAMPLER_DESC l_SampDesc;
 	ZeroMemory(&l_SampDesc, sizeof(l_SampDesc));
 	l_SampDesc.Filter=D3D11_FILTER_MIN_MAG_MIP_LINEAR;
@@ -22,8 +27,8 @@ bool CTexture::LoadFile(){
 }
 
 bool CTexture::Load(const std::string &Filename){	
-	CTexture.m_Name = Filename;
-	return CTexture.LoadFile();
+	m_Name = Filename;
+	return LoadFile();
 }
 
 void CTexture::Activate(unsigned int StageId){
@@ -35,13 +40,13 @@ void CTexture::Activate(unsigned int StageId){
 
 bool CTexture::Reload(){
 	Unload();
-	LoadFile();
+	return LoadFile();
 }
 
 //Unload: hará el Release de la textura y establecerá a NULL el m_Texture.
 void CTexture::Unload(){
-	CTexture.m_Texture->Release();
-	CTexture.m_Texture = NULL;
+	m_Texture->Release();
+	m_Texture = NULL;
 }
 
 CTexture::~CTexture(){

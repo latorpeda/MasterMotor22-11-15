@@ -1,4 +1,4 @@
-#include "Importer\MapManager.h"
+#include "Importer\TemplatedMapManager.h"
 #include "Texture.h"
 
 /*CTextureManager: el constructor inicializará los atributos de la clase

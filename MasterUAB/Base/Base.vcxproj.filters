@@ -37,8 +37,15 @@
     <ClInclude Include="Utils\Types.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Importer\TemplatedVectorMapManager.h" />
-    <ClInclude Include="Importer\MapManager.h" />
+    <ClInclude Include="Importer\TemplatedVectorMapManager.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\TemplatedMapManager.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\Named.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Math">
@@ -49,6 +56,9 @@
     </Filter>
     <Filter Include="XML">
       <UniqueIdentifier>{e4414cad-f914-4ef9-9be1-346b4f23de6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Importer">
+      <UniqueIdentifier>{d1aa6482-c9b9-4590-bb4e-874a2ddbccc2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -61,7 +71,12 @@
     <ClCompile Include="XML\Example.cpp">
       <Filter>XML</Filter>
     </ClCompile>
-    <ClCompile Include="Importer\TestMapManager.cpp" />
+    <ClCompile Include="Importer\TestMapManager.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="Importer\Named.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Math\Color.inl">

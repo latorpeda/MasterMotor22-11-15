@@ -1,6 +1,7 @@
 #include "XML\XMLTreeNode.h"
 
-//if not def define..
+#ifndef FILE_C3DElement
+#define FILE_C3DElement 
 
 class C3DElement
 {
@@ -8,7 +9,10 @@ protected:
 	Vect3f m_Position, m_PrevPos;
 	float m_Yaw, m_Pitch, m_Roll;
 	bool m_TranslationUpdate, m_RotationUpdate, m_ScaleUpdate;
-	Mat44f m_TransformMatrix, m_RotationMatrix, m_TranslationMatrix, m_ScaleMatrix;
+	Mat44f m_TransformMatrix;
+	Mat44f m_RotationMatrix;
+	Mat44f m_TranslationMatrix;
+	Mat44f m_ScaleMatrix;
 	Vect3f m_Scale;
 public:
 	C3DElement();
@@ -60,3 +64,5 @@ public:
 		return m_TransformMatrix;
 	}
 };
+
+#endif

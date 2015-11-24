@@ -1,7 +1,7 @@
 #include "DebugRender.h"
 
 #include "VertexTypes.h"
-#include "Effect.h"
+#include "Effects\Effect.h"
 
 CDebugRender::CDebugRender(ID3D11Device* _Device)
 {

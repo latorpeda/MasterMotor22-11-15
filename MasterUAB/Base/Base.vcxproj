@@ -11,7 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Importer\MapManager.h" />
+    <ClInclude Include="Importer\Named.h" />
+    <ClInclude Include="Importer\TemplatedMapManager.h" />
     <ClInclude Include="Importer\TemplatedVectorMapManager.h" />
     <ClInclude Include="Math\Color.h" />
     <ClInclude Include="Math\MathTypes.h" />
@@ -27,6 +28,7 @@
     <ClInclude Include="XML\XMLTreeNode.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Importer\Named.cpp" />
     <ClCompile Include="Importer\TestMapManager.cpp" />
     <ClCompile Include="Math\MathConstants.cpp" />
     <ClCompile Include="XML\Example.cpp">

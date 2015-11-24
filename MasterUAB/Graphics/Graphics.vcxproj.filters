@@ -1,28 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="CameraController.cpp" />
     <ClCompile Include="DebugRender.cpp" />
-    <ClCompile Include="Frustum.cpp" />
-    <ClCompile Include="SphericalCameraController.cpp" />
     <ClCompile Include="ContextManager.cpp" />
-    <ClCompile Include="FPSCameraController.cpp" />
-    <ClCompile Include="..\Base\C3DElement.cpp" />
     <ClCompile Include="Textures\Texture.cpp">
       <Filter>Textures</Filter>
     </ClCompile>
+    <ClCompile Include="Camera\CameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\FPSCameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Frustum.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\SphericalCameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="CameraController.h" />
     <ClInclude Include="DebugRender.h" />
-    <ClInclude Include="Effect.h" />
-    <ClInclude Include="Frustum.h" />
     <ClInclude Include="RenderableVertexs.h" />
-    <ClInclude Include="SphericalCameraController.h" />
     <ClInclude Include="VertexTypes.h" />
     <ClInclude Include="ContextManager.h" />
-    <ClInclude Include="FPSCameraController.h" />
     <ClInclude Include="C3DElement.h" />
     <ClInclude Include="Textures\TextureManager.h">
       <Filter>Textures</Filter>
@@ -30,10 +40,53 @@
     <ClInclude Include="Textures\Texture.h">
       <Filter>Textures</Filter>
     </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\FPSCameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Frustum.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\SphericalCameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplatedRenderableVertexs.h" />
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Effect.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectParameters.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTechnique.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Textures">
       <UniqueIdentifier>{eaa2d2b8-1eb2-4ea1-a40f-b47d71866316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{815fe96b-e43d-40c7-86e8-612b236e1f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{1608b5f6-77c8-481b-9660-3e415728a492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{98159f21-af96-4df9-999a-c038cba1aa8b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

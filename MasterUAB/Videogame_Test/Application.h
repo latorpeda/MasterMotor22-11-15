@@ -1,7 +1,7 @@
 #pragma once
 
-#include "SphericalCameraController.h"
-#include "FPSCameraController.h"
+#include "Camera\SphericalCameraController.h"
+#include "Camera\FPSCameraController.h"
 #include "HelperTypes.h"
 
 class CDebugRender;
