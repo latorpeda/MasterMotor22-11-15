@@ -38,6 +38,7 @@
     <ClInclude Include="Material.h" />
     <ClInclude Include="MaterialManager.h" />
     <ClInclude Include="RenderableVertexs.h" />
+    <ClInclude Include="StaticMesh.h" />
     <ClInclude Include="TemplatedRenderableVertexs.h" />
     <ClInclude Include="Textures\Texture.h" />
     <ClInclude Include="Textures\TextureManager.h" />

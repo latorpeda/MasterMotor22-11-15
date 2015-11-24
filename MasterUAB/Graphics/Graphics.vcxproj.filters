@@ -74,6 +74,7 @@
     <ClInclude Include="EffectTechnique.h">
       <Filter>Effects</Filter>
     </ClInclude>
+    <ClInclude Include="StaticMesh.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Textures">
