@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<materials>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="01 - Default"  effect_technique="diffuse_technique" >
+		 <texture filename="C:\Program Files\Autodesk\3ds Max 2015\maps\bark.dds"/>
+</material>
+	<material name="Material #0"  effect_technique="diffuse_technique" >
+		 <texture filename=""/>
+</material>
+</materials>
