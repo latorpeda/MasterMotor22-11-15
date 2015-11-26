@@ -46,6 +46,9 @@
     <ClInclude Include="Importer\Named.h">
       <Filter>Importer</Filter>
     </ClInclude>
+    <ClInclude Include="Utils\SingletonPattern.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Math">

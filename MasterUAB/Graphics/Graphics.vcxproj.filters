@@ -18,13 +18,13 @@
     <ClCompile Include="Camera\SphericalCameraController.cpp">
       <Filter>Camera</Filter>
     </ClCompile>
-    <ClCompile Include="Material.cpp">
+    <ClCompile Include="Materials\Material.cpp">
       <Filter>Materials</Filter>
     </ClCompile>
-    <ClCompile Include="MaterialManager.cpp">
+    <ClCompile Include="Materials\MaterialManager.cpp">
       <Filter>Materials</Filter>
     </ClCompile>
-    <ClCompile Include="EffectManager.cpp">
+    <ClCompile Include="Effects\EffectManager.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,25 +56,35 @@
       <Filter>Camera</Filter>
     </ClInclude>
     <ClInclude Include="TemplatedRenderableVertexs.h" />
-    <ClInclude Include="MaterialManager.h">
-      <Filter>Materials</Filter>
-    </ClInclude>
-    <ClInclude Include="Material.h">
-      <Filter>Materials</Filter>
-    </ClInclude>
     <ClInclude Include="Effects\Effect.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="EffectParameters.h">
+    <ClInclude Include="Materials\Material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\MaterialManager.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\EffectManager.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="EffectManager.h">
+    <ClInclude Include="Effects\EffectParameters.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="EffectTechnique.h">
+    <ClInclude Include="Effects\EffectTechnique.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="StaticMesh.h" />
+    <ClInclude Include="RenderableObjectsManager.h" />
+    <ClInclude Include="RenderableObject.h" />
+    <ClInclude Include="Meshes\InstanceMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\StaticMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshManager.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Textures">
@@ -88,6 +98,9 @@
     </Filter>
     <Filter Include="Materials">
       <UniqueIdentifier>{98159f21-af96-4df9-999a-c038cba1aa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{314a664a-e92c-4b8a-8dfa-6f41e1ee600e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

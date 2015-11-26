@@ -1,6 +1,7 @@
 #include <vector>
 #include <Importer\Named.h>
-#include "Textures\Texture.h"
+#include "..\Textures\Texture.h"
+#include "..\Effects\EffectTechnique.h"
 
 class CMaterial : public CNamed
 {
