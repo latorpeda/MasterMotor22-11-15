@@ -27,6 +27,7 @@
     <ClCompile Include="Effects\EffectManager.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
+    <ClCompile Include="EffectVertexShader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DebugRender.h" />
@@ -74,8 +75,6 @@
     <ClInclude Include="Effects\EffectTechnique.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="RenderableObjectsManager.h" />
-    <ClInclude Include="RenderableObject.h" />
     <ClInclude Include="Meshes\InstanceMesh.h">
       <Filter>Meshes</Filter>
     </ClInclude>
@@ -84,6 +83,12 @@
     </ClInclude>
     <ClInclude Include="StaticMeshManager.h">
       <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableObject.h">
+      <Filter>RenderableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableObjectsManager.h">
+      <Filter>RenderableObjects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +106,9 @@
     </Filter>
     <Filter Include="Meshes">
       <UniqueIdentifier>{314a664a-e92c-4b8a-8dfa-6f41e1ee600e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderableObjects">
+      <UniqueIdentifier>{c5cfa902-f52e-4135-8e17-42be5225371f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

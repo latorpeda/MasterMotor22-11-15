@@ -1,4 +1,5 @@
 #include "Importer\TemplatedMapManager.h"
+#include "Material.h"
 
 class CMaterialManager : public CTemplatedMapManager<CMaterial>
 {

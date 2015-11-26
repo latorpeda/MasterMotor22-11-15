@@ -2,8 +2,7 @@
 #include <string>
 #include <d3d11.h>
 
-class CTexture : CNamed
-{
+class CTexture : CNamed {
 private:
 	ID3D11ShaderResourceView *m_Texture;
 	ID3D11SamplerState *m_SamplerState;

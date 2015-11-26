@@ -1,0 +1,8 @@
+MAX
+
+/*mul inversa matriz transf del objeto --> coord locales del vert
+	inverse obj.transform * vert*/
+
+Convertir a RH
+
+Hacer carpetas reales!!!

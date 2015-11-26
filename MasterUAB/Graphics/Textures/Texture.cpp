@@ -11,7 +11,7 @@ CContextManager s_Context;
 bool CTexture::LoadFile(){
 	ID3D11Device *l_Device=s_Context.GetDevice();
 	HRESULT l_HR;
-	l_HR=D3DX11CreateShaderResourceViewFromFile(l_Device,m_Name.c_str(), NULL, NULL, &m_Texture, NULL );
+	//l_HR=D3DX11CreateShaderResourceViewFromFile(l_Device,m_Name.c_str(), NULL, NULL, &m_Texture, NULL );
 	//l_HR=CreateDDSTextureFromMemory(l_Device,m_Name.c_str(), NULL, NULL, &m_Texture, NULL );
 	
 	D3D11_SAMPLER_DESC l_SampDesc;
