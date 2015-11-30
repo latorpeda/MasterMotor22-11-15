@@ -1,3 +1,6 @@
+#ifndef TEXTURE_H
+#define TEXTURE_H
+
 #include "Importer\Named.h"
 #include <string>
 #include <d3d11.h>
@@ -15,3 +18,5 @@ public:
 	void Activate(unsigned int StageId);
 	bool Reload();
 };
+
+#endif

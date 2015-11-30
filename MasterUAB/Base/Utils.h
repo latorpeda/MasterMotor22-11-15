@@ -4,10 +4,7 @@
 #include <stdint.h>
 
 #define UAB_GET_PROPERTY(Type, Variable) \
-private: \
-	Type			m_##Variable##; \
-public: \
-	Type Get##Variable##() const {return m_##Variable##;}
+	Type * Get##Variable##() const {return m_##Variable##;}
 
 #define UAB_BUILD_GET_SET(Type, Variable) \
 private: \

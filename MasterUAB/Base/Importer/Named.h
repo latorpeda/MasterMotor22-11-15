@@ -1,3 +1,6 @@
+#ifndef NAMED_H
+#define NAMED_H
+
 #include <string>
 #include <XML\XMLTreeNode.h>
 
@@ -11,3 +14,5 @@ public:
 	virtual void SetName(const std::string &Name){ m_Name=Name; }
 	virtual const std::string &GetName(){return m_Name;}
 }; 
+
+#endif

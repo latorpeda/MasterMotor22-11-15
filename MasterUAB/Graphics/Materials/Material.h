@@ -1,3 +1,6 @@
+#ifndef _MATERIAL_H
+#define _MATERIAL_H
+
 #include <vector>
 #include <Importer\Named.h>
 #include "..\Textures\Texture.h"
@@ -18,3 +21,5 @@ public:
 	virtual void Apply();
 	UAB_GET_PROPERTY(CEffectTechnique, EffectTechnique);
 };
+
+#endif

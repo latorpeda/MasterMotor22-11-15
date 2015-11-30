@@ -27,7 +27,11 @@
     <ClCompile Include="Effects\EffectManager.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
-    <ClCompile Include="EffectVertexShader.cpp" />
+    <ClCompile Include="Meshes\StaticMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="load_static_mesh.cpp" />
+    <ClCompile Include="EffectShader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DebugRender.h" />
@@ -56,7 +60,6 @@
     <ClInclude Include="Camera\SphericalCameraController.h">
       <Filter>Camera</Filter>
     </ClInclude>
-    <ClInclude Include="TemplatedRenderableVertexs.h" />
     <ClInclude Include="Effects\Effect.h">
       <Filter>Effects</Filter>
     </ClInclude>
@@ -78,9 +81,6 @@
     <ClInclude Include="Meshes\InstanceMesh.h">
       <Filter>Meshes</Filter>
     </ClInclude>
-    <ClInclude Include="Meshes\StaticMesh.h">
-      <Filter>Meshes</Filter>
-    </ClInclude>
     <ClInclude Include="StaticMeshManager.h">
       <Filter>Meshes</Filter>
     </ClInclude>
@@ -89,6 +89,9 @@
     </ClInclude>
     <ClInclude Include="RenderableObjectsManager.h">
       <Filter>RenderableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\StaticMesh.h">
+      <Filter>Meshes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +112,9 @@
     </Filter>
     <Filter Include="RenderableObjects">
       <UniqueIdentifier>{c5cfa902-f52e-4135-8e17-42be5225371f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderableVertexs">
+      <UniqueIdentifier>{32108519-f4bd-4729-a51d-b9d4d559e105}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
