@@ -1,22 +1,22 @@
 #include "MaterialManager.h"
 
 CMaterialManager::CMaterialManager(){
-	CMaterialManager.CTemplatedMapManager();
+//	CMaterialManager.CTemplatedMapManager();
 }
 
 CMaterialManager::~CMaterialManager(){
-	CMaterialManager.Destroy();
+	Destroy();
 }
 
 void CMaterialManager::Load(const std::string &Filename){	
-	CMaterialManager.AddResource(Filename,new CMaterial(Filename));
+	AddResource(Filename,new CMaterial(Filename));
 }
 
 void CMaterialManager::Reload(){
-	std::map<std::string, CMaterial>::iterator it;
+	/*std::map<std::string, CMaterial>::iterator it;
 	for(it = m_Resources.begin(); it != m_Resources.end(); ++it){
 		std::string filename = it->second.GetName();
 		it->second.Destroy();
 		it->second = CMaterial(filename);
-	}
+	}*/
 }

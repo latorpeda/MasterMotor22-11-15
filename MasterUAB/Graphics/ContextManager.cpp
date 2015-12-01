@@ -1,7 +1,7 @@
 #include "ContextManager.h"
 
-#include "VertexTypes.h"
-#include "RenderableVertexs.h"
+#include "Renderable Vertex\VertexTypes.h"
+#include "Renderable Vertex\RenderableVertexs.h"
 #include "Effects\Effect.h"
 
 #include "Math\Matrix44.h"
@@ -9,7 +9,6 @@
 #include "DebugRender.h"
 
 #pragma comment(lib,"d3d11.lib")
-//#pragma comment(lib, "Graphics_d.lib")
 
 
 CContextManager::CContextManager()

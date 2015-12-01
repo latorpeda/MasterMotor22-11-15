@@ -30,13 +30,9 @@
     <ClCompile Include="Meshes\StaticMesh.cpp">
       <Filter>Meshes</Filter>
     </ClCompile>
-    <ClCompile Include="load_static_mesh.cpp" />
-    <ClCompile Include="EffectShader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DebugRender.h" />
-    <ClInclude Include="RenderableVertexs.h" />
-    <ClInclude Include="VertexTypes.h" />
     <ClInclude Include="ContextManager.h" />
     <ClInclude Include="C3DElement.h" />
     <ClInclude Include="Textures\TextureManager.h">
@@ -81,16 +77,25 @@
     <ClInclude Include="Meshes\InstanceMesh.h">
       <Filter>Meshes</Filter>
     </ClInclude>
-    <ClInclude Include="StaticMeshManager.h">
+    <ClInclude Include="Meshes\StaticMesh.h">
       <Filter>Meshes</Filter>
     </ClInclude>
-    <ClInclude Include="RenderableObject.h">
+    <ClInclude Include="Renderable Vertex\RenderableVertexs.h">
+      <Filter>RenderableVertexs</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable Vertex\VertexTypes.h">
+      <Filter>RenderableVertexs</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable Objects\RenderableObject.h">
       <Filter>RenderableObjects</Filter>
     </ClInclude>
-    <ClInclude Include="RenderableObjectsManager.h">
+    <ClInclude Include="Renderable Objects\RenderableObjectsManager.h">
       <Filter>RenderableObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Meshes\StaticMesh.h">
+    <ClInclude Include="Effects\EffectShader.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\StaticMeshManager.h">
       <Filter>Meshes</Filter>
     </ClInclude>
   </ItemGroup>

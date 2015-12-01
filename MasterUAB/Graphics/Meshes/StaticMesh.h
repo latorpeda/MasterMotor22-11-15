@@ -1,12 +1,14 @@
-#pragma once
+#ifndef STATIC_MESH_H
+#define STATIC_MESH_H
+
 #include <vector>
-#include "Stdio.h"
-#include "Utils.h"
-#include "..\VertexTypes.h"
-#include "..\Textures\Texture.h"
-#include "..\Materials\Material.h"
-#include "..\RenderableVertexs.h"
 #include "string"
+#include "Utils.h"
+#include "Renderable Vertex\VertexTypes.h"
+#include "Textures\Texture.h"
+#include "Materials\Material.h"
+#include "Renderable Vertex\RenderableVertexs.h"
+
 class CStaticMesh : public CNamed
 {
 protected:
@@ -27,3 +29,5 @@ public:
 	void Destroy();
 
 };     
+
+#endif

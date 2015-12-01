@@ -1,5 +1,6 @@
 #include <Importer\TemplatedMapManager.h>
 #include "EffectTechnique.h"
+#include "EffectParameters.h"
 #include <string>
 
 class CEffectManager : public CTemplatedMapManager<CEffectTechnique>

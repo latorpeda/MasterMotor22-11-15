@@ -1,4 +1,6 @@
-
+#include "Renderable Objects\RenderableObject.h"
+#include "Meshes\StaticMesh.h"
+#include "ContextManager.h"
 
 class CInstanceMesh : public CRenderableObject
 {
@@ -7,5 +9,5 @@ private:
 public:
 	CInstanceMesh(const std::string &Name, const std::string &CoreName);
 	~CInstanceMesh();
-	void Render(CRenderManager *RM);
+	void Render(CContextManager *RM);
 };

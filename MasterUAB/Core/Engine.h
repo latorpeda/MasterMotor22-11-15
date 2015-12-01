@@ -1,6 +1,6 @@
 #include <Utils\SingletonPattern.h>
-#include "StaticMeshManager.h"
-#include "RenderableObjectsManager.h"
+#include "Meshes\StaticMeshManager.h"
+#include "Renderable Objects\RenderableObjectsManager.h"
 #include "Materials\MaterialManager.h"
 #include "Effects\EffectManager.h"
 #include "Textures\TextureManager.h"

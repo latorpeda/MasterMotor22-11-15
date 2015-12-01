@@ -10,7 +10,7 @@ CMaterial::CMaterial(const std::string &Filename):CNamed(""){
 	CXMLTreeNode TreeNode; 
 	TreeNode.LoadFile(Filename.c_str());
 	CXMLTreeNode l_materials = TreeNode["materials"];
-	if (l_materials.Exists()){
+	/*if (l_materials.Exists()){
 		for (int i = 0; i < l_materials.GetNumChildren(); ++i){
 			CXMLTreeNode l_material = l_materials(i);
 
@@ -25,7 +25,7 @@ CMaterial::CMaterial(const std::string &Filename):CNamed(""){
 				}			
 			}
 		}
-	}
+	}*/
 }
 
 CMaterial::~CMaterial(){
